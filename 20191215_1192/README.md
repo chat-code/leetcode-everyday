@@ -30,7 +30,7 @@ Constraints:
 - There are no repeated connections.
 
 
-
+1192. 查找集群内的「关键连接」
 
 力扣数据中心有 n 台服务器，分别按从 0 到 n-1 的方式进行了编号。
 
