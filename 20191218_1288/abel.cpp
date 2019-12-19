@@ -8,7 +8,7 @@ using namespace std;
 using VI = vector<int>;
 using PII = pair<int, int>;
 
-class Solution {
+class Solution1 {
 public:
   int removeCoveredIntervals(vector<vector<int>>& intervals) {
     if (intervals.size() < 2) return int(intervals.size());
@@ -36,6 +36,34 @@ public:
           }
       }
     return int(far.size());
+  }
+};
+
+class Solution {
+public:
+  int removeCoveredIntervals(vector<vector<int>>& intervals) {
+    if (intervals.size() < 2) return int(intervals.size());
+
+    vector<PII> ps;
+    for (auto &x: intervals) ps.push_back(make_pair(x[0], x[1]));
+    sort(ps.begin(), ps.end());
+
+    int res = 1;
+    int pa = ps[0].first, pb = ps[0].second;
+    for (int i = 1; i < int(ps.size()); i++)
+      {
+        if (ps[i].second > pb)
+          {
+            if (ps[i].first != pa)
+              {
+                pa = ps[i].first;
+                res++;
+              }
+            pb = ps[i].second;
+          }
+      }
+
+    return res;
   }
 };
 
