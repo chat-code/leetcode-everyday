@@ -1,3 +1,5 @@
+[maximum-number-of-occurrences-of-a-substring](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)
+
 Given a string s, return the maximum number of ocurrences of any substring under the following rules:
 
 The number of unique characters in the substring must be less than or equal to maxLetters.
