@@ -6,10 +6,13 @@
 
 {description}
 
-**Example** (may be multiple)
+#### Example (may be multiple)
 ```
 {example}
 ```
 
-**Note** (optional)
+### Constraints
+{constraints}
+
+#### Note (optional)
 {note}
