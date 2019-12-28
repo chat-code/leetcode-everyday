@@ -1,18 +1,6 @@
 ### {title}
 
+* id: {id}
+* date: {date}
 * link: {link}
 * level: {level}
-* topics: {topics}
-
-{description}
-
-#### Example (may be multiple)
-```
-{example}
-```
-
-### Constraints
-{constraints}
-
-#### Note (optional)
-{note}

@@ -26,70 +26,84 @@ def get_past_problems(sub_dirs: List[str]) -> Tuple:
     return dates, lc_ids
 
 
-def check_repetition(new_id: int, ids: List[int]):
+def check_repetition(info: Dict, ids: List[int]):
+    new_id = info["id"]
     if new_id in ids:
         raise ValueError(f"Problem {new_id} has been picked before.")
 
 
-def get_new_dir_name(dates: List[date], new_id: int) -> str:
+def get_new_dir_name(dates: List[date], info: Dict) -> str:
+    new_id = info["id"]
     next_date = max(dates) + timedelta(days=1)
-    dirname = f"{next_date.year}{next_date.month}{next_date.day}_{new_id}"
+    print(f"\tPick problem {new_id} for date {next_date}. Continuing ...")
+    date = str(next_date).replace("-", "")
+    dirname = f"{date}_{new_id}"
+    info["date"] = date
     return dirname
 
 
-def get_id(ask: str):
-    return int(input(ask.format(field="id")))
+def get_id(info: Dict):
+    info["id"] = int(input("Input id: "))
 
 
-def get_problem_info(keywords_full: Sequence[str], questions: List[Tuple]) -> Dict[str, str]:
-    kv = {k: "{" + k + "}" for k in keywords_full}
-    for k, v in questions:
-        kv[k] = input(v)
-    return kv
+def get_problem_info(info: Dict):
+    link = input("Input link: ")
+    info["link"] = link
+    
+    if link[-1] == "/":
+        link = link[:-1]
+    title = link.split("/")[-1]
+    title = title.replace("-", " ").title()
+    
+    level = input("Input level (E/M/H): ")
+    level = {"E": "Easy", "M": "Medium", "H": "Hard"}[level]
+    info["title"] = title
+    info["level"] = level
 
 
-def get_editor() -> str:
-    program = input("Provide editor used to open README.md file (Default is 'code'): ")
-    if program == "":
-        program = "code"
-    return program
+def create_readme(md_template: str, md_new: str, dirname: str, info: Dict) -> None:
+    get_problem_info(info)
+    new_dir = Path(dirname)
 
-
-def create_readme(dirname: str, template: str, keys_full: Sequence[str], keys_required: Sequence[str]) -> None:
-    questions = [(k, ASK.format(field=k)) for k in keys_required]
-    keywords = get_problem_info(keys_full, questions)
-    program = get_editor()
-
-    p = Path(dirname)
-    p.mkdir()
-
-    with open(template) as f:
-        md_template = f.read()
-    p = p / "README.md"
-    with p.open('w') as f:
-        f.write(md_template.format(**keywords))
-
-    subprocess.run([program, str(p)])
+    with open(md_template) as f:
+        md_template_text = f.read()
+    new_md_path = new_dir / md_new
+    md_new_text = md_template_text.format(**info)
+    
+    print(f"\tWirte to file ./{dirname}/{md_new}. Continuing ...")
+    print("=" * 40)
+    print(md_new_text)
+    print("=" * 40)
+    
+    is_confirmed = input("\tConfirmed? [T]/F ")
+    if is_confirmed in ("", "t", "T", "True"):
+        new_dir.mkdir()
+        with new_md_path.open('w') as f:
+            f.write(md_new_text)
+        
+        is_auto_git = input("Auto commit? [T]/F ")
+        if is_auto_git in ("", "t", "T", "True"):
+            subprocess.run(["git", "add", dirname])
+            subprocess.run(["git", "commit", "-m", "pick " + str(info["id"])])
 
 
 if __name__ == '__main__':
     # config
     SUB_DIRS = [".", "past"]
     README_TEMPLATE = "./utility/README_template.md"
-    KEYS_FULL = ("title", "link", "level", "topics", "description", "example", "note", "constraints")
-    KEYS_REQUIRED = ("title", "link", "level")
-    ASK = "Provide problem {field}: "
+    README_NEW = "READEME.md"
+    info = {}
 
     # check current working directory
     check_cwd()
 
     # get new id, check if picked
-    new_id = get_id(ASK)
+    get_id(info)
     dates, lc_ids = get_past_problems(SUB_DIRS)
-    check_repetition(new_id, lc_ids)
+    check_repetition(info, lc_ids)
 
     # get new dirname
-    dirname = get_new_dir_name(dates, new_id)
+    dirname = get_new_dir_name(dates, info)
 
     # get more problem info and create new README.md
-    create_readme(dirname, README_TEMPLATE, KEYS_FULL, KEYS_REQUIRED)
+    create_readme(README_TEMPLATE, README_NEW, dirname, info)
