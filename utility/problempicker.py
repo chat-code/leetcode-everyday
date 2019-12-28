@@ -35,7 +35,7 @@ def check_repetition(info: Dict, ids: List[int]):
 def get_new_dir_name(dates: List[date], info: Dict) -> str:
     new_id = info["id"]
     next_date = max(dates) + timedelta(days=1)
-    print(f"\tPick problem {new_id} for date {next_date}. Continuing ...")
+    # print(f"Pick problem {new_id} for date {next_date}. Continuing ...")
     date = str(next_date).replace("-", "")
     dirname = f"{date}_{new_id}"
     info["date"] = date
@@ -55,7 +55,9 @@ def get_problem_info(info: Dict):
     title = link.split("/")[-1]
     title = title.replace("-", " ").title()
     
-    level = input("Input level (E/M/H): ")
+    level = input("Input level (E/[M]/H): ")
+    if level == "":
+        level = "M"
     level = {"E": "Easy", "M": "Medium", "H": "Hard"}[level]
     info["title"] = title
     info["level"] = level
@@ -70,12 +72,11 @@ def create_readme(md_template: str, md_new: str, dirname: str, info: Dict) -> No
     new_md_path = new_dir / md_new
     md_new_text = md_template_text.format(**info)
     
-    print(f"\tWirte to file ./{dirname}/{md_new}. Continuing ...")
     print("=" * 40)
     print(md_new_text)
     print("=" * 40)
     
-    is_confirmed = input("\tConfirmed? [T]/F ")
+    is_confirmed = input(f"Wirte to file ./{dirname}/{md_new}? [T]/F ")
     if is_confirmed in ("", "t", "T", "True"):
         new_dir.mkdir()
         with new_md_path.open('w') as f:
