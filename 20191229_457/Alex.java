@@ -1,4 +1,5 @@
-public boolean circularArrayLoop(int[] nums) {
+class Alex{
+    public boolean circularArrayLoop(int[] nums) {
         int n = nums.length;
         if(n <= 1) return false;
         for (int i = 0; i < n; i++) {
