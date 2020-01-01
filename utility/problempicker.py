@@ -63,7 +63,7 @@ def get_problem_info(info: Dict):
     info["level"] = level
 
 
-def create_readme(md_template: str, md_new: str, dirname: str, info: Dict) -> None:
+def create_readme(md_template: str, md_new: str, dirname: str, info: Dict, true_alias: Tuple) -> None:
     get_problem_info(info)
     new_dir = Path(dirname)
 
@@ -77,13 +77,13 @@ def create_readme(md_template: str, md_new: str, dirname: str, info: Dict) -> No
     print("=" * 40)
     
     is_confirmed = input(f"Wirte to file ./{dirname}/{md_new}? [T]/F ")
-    if is_confirmed in ("", "t", "T", "True"):
+    if is_confirmed in true_alias:
         new_dir.mkdir()
         with new_md_path.open('w') as f:
             f.write(md_new_text)
         
         is_auto_git = input("Auto commit? [T]/F ")
-        if is_auto_git in ("", "t", "T", "True"):
+        if is_auto_git in true_alias:
             subprocess.run(["git", "add", dirname])
             subprocess.run(["git", "commit", "-m", "pick " + str(info["id"])])
 
@@ -93,6 +93,7 @@ if __name__ == '__main__':
     SUB_DIRS = [".", "past"]
     README_TEMPLATE = "./utility/README_template.md"
     README_NEW = "READEME.md"
+    TRUE_ALIAS = ("", "t", "T", "True")
     info = {}
 
     # check current working directory
@@ -107,4 +108,4 @@ if __name__ == '__main__':
     dirname = get_new_dir_name(dates, info)
 
     # get more problem info and create new README.md
-    create_readme(README_TEMPLATE, README_NEW, dirname, info)
+    create_readme(README_TEMPLATE, README_NEW, dirname, info, TRUE_ALIAS)
