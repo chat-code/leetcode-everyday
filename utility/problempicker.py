@@ -52,8 +52,14 @@ def get_problem_info(info: Dict):
     
     if link[-1] == "/":
         link = link[:-1]
+    
+    # get title from link
     title = link.split("/")[-1]
     title = title.replace("-", " ").title()
+    # handle special words in title
+    for s in (" Ii", " Iii"):
+        if title.endswith(s):
+            title = title[:-len(s)] + s.upper()
     
     level = input("Input level (E/[M]/H): ")
     if level == "":
