@@ -1,7 +1,7 @@
 import json
 from dataclasses import dataclass
 from random import choice
-from typing import Dict, List
+from typing import Dict
 
 from utility.problempicker import get_past_problems, check_cwd, get_new_dir_name, create_readme
 
@@ -29,7 +29,7 @@ class Problem:
     def from_dict(cls, info: Dict):
         dif = {1: 'easy', 2: 'medium', 3: 'hard'}[info['difficulty']['level']]
         stat = info['stat']
-        return cls(stat['question__title'], stat['question_id'], PROBLEM_URL_PREFIX + stat['question__title_slug'], dif)
+        return cls(stat['question_id'], stat['question__title'], PROBLEM_URL_PREFIX + stat['question__title_slug'], dif)
 
     @classmethod
     def from_file(cls):
@@ -50,7 +50,6 @@ def random_pick():
     chosen: Problem = choice(problems_to_do)
     info = chosen.to_dict()
     dirname = get_new_dir_name(dates, info)
-    print(info)
     create_readme(README_TEMPLATE, README_NEW, dirname, info, TRUE_ALIAS, from_input=False)
 
 
