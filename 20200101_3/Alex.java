@@ -1,4 +1,4 @@
-class Solution {
+class Alex {
     public int lengthOfLongestSubstring(String s) {
 
         int max = 0;
