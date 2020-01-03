@@ -63,8 +63,9 @@ def get_problem_info(info: Dict):
     info["level"] = level
 
 
-def create_readme(md_template: str, md_new: str, dirname: str, info: Dict, true_alias: Tuple) -> None:
-    get_problem_info(info)
+def create_readme(md_template: str, md_new: str, dirname: str, info: Dict, true_alias: Tuple, from_input=True) -> None:
+    if from_input:
+        get_problem_info(info)
     new_dir = Path(dirname)
 
     with open(md_template) as f:
