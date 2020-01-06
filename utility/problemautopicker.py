@@ -1,15 +1,18 @@
 from datetime import date
 from random import choice
+from typing import Tuple, List
 
 from utility.problem import Problem
 from utility.problempicker import get_past_problems, check_cwd, create_readme, commit_readme, \
     README_TEMPLATE, README_NEW, SUB_DIRS, TRUE_ALIAS, get_new_date
 
 
-def random_generate(last_problem: Problem = None) -> Problem:
+def random_generate(chosen_problems: List[Problem] = None) -> Problem:
     check_cwd()
     dates, lc_ids = get_past_problems(SUB_DIRS)
-    if last_problem is not None: dates.append(last_problem.new_date)
+    for p in chosen_problems:
+        dates.append(p.new_date)
+        lc_ids.append(p.pid)
     problems_to_do = list(filter(lambda x: x.pid not in lc_ids, Problem.from_file(get_new_date(dates))))
     chosen: Problem = choice(problems_to_do)
     return chosen
@@ -38,11 +41,8 @@ def choose_pick():
 
 def week_pick():
     ps = []
-    lp = None
     for _ in range(7):
-        p = random_generate(lp)
-        ps.append(p)
-        lp = p
+        ps.append(random_generate(ps))
     for p in ps:
         print(p.get_new_dir_name())
     rms = [create_readme(README_TEMPLATE, README_NEW, p.get_new_dir_name(), p.to_dict(), from_input=False) for p in ps]
