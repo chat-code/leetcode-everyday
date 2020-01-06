@@ -46,7 +46,7 @@ def week_pick():
     for p in ps:
         print(p.get_new_dir_name())
     rms = [create_readme(README_TEMPLATE, README_NEW, p.get_new_dir_name(), p.to_dict(), from_input=False) for p in ps]
-    comfirmed = input(f"write to the above files and commit? [T]/F")
+    comfirmed = input(f"write to the above files and commit? [T]/F: ")
     if comfirmed in TRUE_ALIAS:
         for readme in rms:
             commit_readme(readme, auto=True)
