@@ -1,6 +1,5 @@
-from datetime import date
 from random import choice
-from typing import Tuple, List
+from typing import List
 
 from utility.problem import Problem
 from utility.problempicker import get_past_problems, check_cwd, create_readme, commit_readme, \
@@ -8,6 +7,8 @@ from utility.problempicker import get_past_problems, check_cwd, create_readme, c
 
 
 def random_generate(chosen_problems: List[Problem] = None) -> Problem:
+    if not chosen_problems:
+        chosen_problems = []
     check_cwd()
     dates, lc_ids = get_past_problems(SUB_DIRS)
     for p in chosen_problems:
