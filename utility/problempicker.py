@@ -48,9 +48,13 @@ def check_repetition(info: Dict, ids: List[int]):
         raise ValueError(f"Problem {new_id} has been picked before.")
 
 
+def get_new_date(dates: List[date]) -> date:
+    return max(dates) + timedelta(days=1)
+
+
 def get_new_dir_name(dates: List[date], info: Dict) -> str:
     new_id = info["id"]
-    next_date = max(dates) + timedelta(days=1)
+    next_date = get_new_date(dates)
     # print(f"Pick problem {new_id} for date {next_date}. Continuing ...")
     date = str(next_date).replace("-", "")
     dirname = f"{date}_{new_id}"
