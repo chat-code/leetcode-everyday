@@ -28,7 +28,7 @@ class Problem:
     def from_dict(cls, info: Dict, new_date: date):
         dif = {1: 'Easy', 2: 'Medium', 3: 'Hard'}[info['difficulty']['level']]
         stat = info['stat']
-        return cls(stat['question_id'], stat['question__title'], PROBLEM_URL_PREFIX + stat['question__title_slug'], dif,
+        return cls(stat['frontend_question_id'], stat['question__title'], PROBLEM_URL_PREFIX + stat['question__title_slug'], dif,
                    new_date)
 
     @classmethod
