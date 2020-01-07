@@ -1,10 +1,8 @@
-from pprint import pprint
 from typing import List
 
 
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
-        print(matrix)
         if len(matrix) < 1:
             return 0
         height, width = len(matrix), len(matrix[0])
@@ -21,9 +19,9 @@ class Solution:
                     if colsum[j] != length:
                         if count >= length:
                             ans = length
-                        count = -1
-                    count += 1
-            pprint(colsum)
+                        count = 0
+                    else:
+                        count += 1
             if count >= length:
                 ans = length
             if ans >= mini:
