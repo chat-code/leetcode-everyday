@@ -1,9 +1,15 @@
-    public int findPoisonedDuration(int[] timeSeries, int duration) {
-        int result=0;
-        for (int i = 0; i < timeSeries.length; i++){
-            if (i  != timeSeries.length-1 &&timeSeries[i] + duration -1 >= timeSeries[i+1])
-                result = timeSeries[i+1] - timeSeries[i] + result;
-            else result = duration + result;
+    public String convertToBase7(int num) {
+        if (num ==0) return "0";
+        String result = "";
+        String a = "";
+
+        if (num < 0) {
+            a = "-";
+            num = -num;
         }
-        return result;
-    }
+        while (num > 0){
+            result = num%7 + result;
+            num = num/7;
+        }
+        return a+result;
+    } 
