@@ -1,4 +1,4 @@
-#include <::std::vector>
+#include <vector>
 class Solution
 {
 public:
