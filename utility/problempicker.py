@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import *
 import subprocess
 
+
 SUB_DIRS = [".", "past"]
 README_TEMPLATE = "./utility/README_template.md"
 README_NEW = "READEME.md"
@@ -40,6 +41,8 @@ def get_past_problems(sub_dirs: List[str]) -> Tuple:
                                   month=int(pick_date[4:6]),
                                   day=int(pick_date[6:])))
                 lc_ids.append(int(lc_id))
+
+    dates.sort()
     return dates, lc_ids
 
 
@@ -50,7 +53,27 @@ def check_repetition(info: Dict, ids: List[int]):
 
 
 def get_new_date(dates: List[date]) -> date:
-    return max(dates) + timedelta(days=1)
+    today = date.today()
+    
+    # try today
+    idx = -1
+    if dates[idx] < today:
+        return today
+
+    # try a day in the past 30 days
+    while dates[idx] >= today:
+        # assuming future days are rare, otherwise bitsec is quicker
+        idx -= 1
+    candidate = today
+    for i in range(30):
+        candidate += timedelta(days=-1)
+        if dates[idx] == candidate:
+            idx -= 1
+        else:
+            return candidate
+    
+    # try a day in the future
+    return dates[-1] + timedelta(days=1)
 
 
 def get_new_dir_name(dates: List[date], info: Dict) -> str:
