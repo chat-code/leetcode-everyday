@@ -1,22 +1,21 @@
-import getopt
-import sys
+import argparse
 
 from utility.problemautopicker import random_pick, choose_pick, random_generate, week_pick
-from sys import argv
 
-ARGS = ['choose', 'random', 'week']
+
+# parse CLI options
+parser = argparse.ArgumentParser(description='Pick one leetcode problem a day.')
+parser.add_argument('type', choices=['choose', 'random', 'week'],
+                    help='how to pick a problem?')
+parser.add_argument('--past', metavar='max_past_days', type=int, default=30,
+                    help='max number of past days (default: 30)')
+args = parser.parse_args()
+
 
 if __name__ == "__main__":
-    if len(argv) > 1:
-        arg = argv[1]
-        if arg not in ARGS:
-            print('picker.py [choose|random|week]')
-            sys.exit(2)
-        elif arg == 'choose':
-            choose_pick()
-        elif arg == 'random':
-            random_pick()
-        elif arg == "week":
-            week_pick()
-    else:
+    if args.type == 'choose':
         choose_pick()
+    elif args.type == 'random':
+        random_pick(max_past_days=args.past)
+    elif args.type == "week":
+        week_pick()

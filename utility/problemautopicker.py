@@ -6,7 +6,7 @@ from utility.problempicker import get_past_problems, check_cwd, create_readme, c
     README_TEMPLATE, README_NEW, SUB_DIRS, TRUE_ALIAS, get_new_date
 
 
-def random_generate(chosen_problems: List[Problem] = None) -> Problem:
+def random_generate(chosen_problems: List[Problem] = None, max_past_days=30) -> Problem:
     if not chosen_problems:
         chosen_problems = []
     check_cwd()
@@ -14,13 +14,13 @@ def random_generate(chosen_problems: List[Problem] = None) -> Problem:
     for p in chosen_problems:
         dates.append(p.new_date)
         lc_ids.append(p.pid)
-    problems_to_do = list(filter(lambda x: x.pid not in lc_ids, Problem.from_file(get_new_date(dates))))
+    problems_to_do = list(filter(lambda x: x.pid not in lc_ids, Problem.from_file(get_new_date(dates, max_past_days))))
     chosen: Problem = choice(problems_to_do)
     return chosen
 
 
-def random_pick():
-    chosen = random_generate()
+def random_pick(max_past_days):
+    chosen = random_generate(max_past_days=max_past_days)
     commit_readme(
         create_readme(README_TEMPLATE, README_NEW, chosen.get_new_dir_name(), chosen.to_dict(), from_input=False))
 

@@ -52,7 +52,7 @@ def check_repetition(info: Dict, ids: List[int]):
         raise ValueError(f"Problem {new_id} has been picked before.")
 
 
-def get_new_date(dates: List[date]) -> date:
+def get_new_date(dates: List[date], max_past_days=30) -> date:
     today = date.today()
     
     # try today
@@ -60,12 +60,12 @@ def get_new_date(dates: List[date]) -> date:
     if dates[idx] < today:
         return today
 
-    # try a day in the past 30 days
+    # try a day in the past days
     while dates[idx] >= today:
         # assuming future days are rare, otherwise bitsec is quicker
         idx -= 1
     candidate = today
-    for i in range(30):
+    for i in range(max_past_days):
         candidate += timedelta(days=-1)
         if dates[idx] == candidate:
             idx -= 1
