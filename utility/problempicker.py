@@ -60,9 +60,10 @@ def get_new_date(dates: List[date], max_past_days=30) -> date:
     if dates[idx] < today:
         return today
 
-    # try a day in the past days
+    # try a past day
     while dates[idx] >= today:
-        # assuming future days are rare, otherwise bitsec is quicker
+        # assuming selected future days are not dense, otherwise
+        # bitsec is quicker
         idx -= 1
     candidate = today
     for i in range(max_past_days):
