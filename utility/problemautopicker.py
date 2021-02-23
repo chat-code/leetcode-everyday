@@ -25,11 +25,13 @@ def random_pick(max_past_days):
         create_readme(README_TEMPLATE, README_NEW, chosen.get_new_dir_name(), chosen.to_dict(), from_input=False))
 
 
-def choose_pick():
+def choose_pick(max_past_days):
     check_cwd()
-    pid = int(input('choose problem id:'))
+    pid = int(input('choose problem id: '))
     dates, lc_ids = get_past_problems(SUB_DIRS)
-    problems_to_do = list(filter(lambda x: x.pid not in lc_ids, Problem.from_file(get_new_date(dates))))
+    problems_to_do = \
+      list(filter(lambda x: x.pid not in lc_ids,
+                  Problem.from_file(get_new_date(dates, max_past_days))))
     if pid in (i.pid for i in problems_to_do):
         chosen: Problem = next(i for i in problems_to_do if i.pid == pid)
         commit_readme(

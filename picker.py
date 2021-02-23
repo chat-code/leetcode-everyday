@@ -14,7 +14,7 @@ args = parser.parse_args()
 
 if __name__ == "__main__":
     if args.type == 'choose':
-        choose_pick()
+        choose_pick(max_past_days=args.past)
     elif args.type == 'random':
         random_pick(max_past_days=args.past)
     elif args.type == "week":
