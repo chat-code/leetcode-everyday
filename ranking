@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # find . -type f -name '*.*' | xargs basename | sort | uniq
-names=(duangduang Saigyouji-Yuyuko dd Alex Kamikakushi jordi abel)
+names=(duangduang Saigyouji-Yuyuko dd Alex Kamikakushi jordi abel jojo Yescafe)
 tmp_file="__tmp__file__stats"
 
 for name in ${names[@]}
