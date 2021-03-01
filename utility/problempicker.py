@@ -33,9 +33,9 @@ def get_past_problems(sub_dirs: List[str]) -> Tuple:
     dates: List[date] = []
     lc_ids: List[int] = []
     for subdir in sub_dirs:
-        for x in Path(subdir).glob("*_*"):
+        for x in Path(subdir).rglob("20*_*"):
             if x.is_dir():
-                dir_name = str(x.relative_to(subdir))
+                dir_name = str(x.relative_to(subdir).name)
                 pick_date, lc_id = dir_name.split('_')
                 dates.append(date(year=int(pick_date[:4]),
                                   month=int(pick_date[4:6]),
