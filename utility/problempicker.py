@@ -6,7 +6,7 @@ from typing import *
 import subprocess
 
 
-SUB_DIRS = [".", "past"]
+SUB_DIRS = ["."]
 README_TEMPLATE = "./utility/README_template.md"
 README_NEW = "READEME.md"
 TRUE_ALIAS = ("", "t", "T", "True")
@@ -54,7 +54,7 @@ def check_repetition(info: Dict, ids: List[int]):
 
 def get_new_date(dates: List[date], max_past_days=30) -> date:
     today = date.today()
-    
+
     # try today
     idx = -1
     if dates[idx] < today:
@@ -72,7 +72,7 @@ def get_new_date(dates: List[date], max_past_days=30) -> date:
             idx -= 1
         else:
             return candidate
-    
+
     # try a day in the future
     return dates[-1] + timedelta(days=1)
 
