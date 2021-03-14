@@ -5,3 +5,4 @@ __pycache__
 .python-version
 .DS_Store
 a.out
+.vscode
