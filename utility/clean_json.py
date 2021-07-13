@@ -1,7 +1,7 @@
 import json
 
 if __name__ == '__main__':
-    file_name = 'utility/problems.json'
+    file_name = 'problems.json'
     info_lst = []
     with open(file_name) as fh:
         for info in json.load(fh)['stat_status_pairs']:
@@ -18,7 +18,7 @@ if __name__ == '__main__':
                 item['difficulty']['level'] = info['difficulty']['level']
                 info_lst.append(item)
 
-    with open('utility/new_problems.json', 'w') as fh:
+    with open('problems.json', 'w') as fh:
         info_all = {
             'stat_status_pairs': info_lst,
         }
