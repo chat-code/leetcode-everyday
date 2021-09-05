@@ -1,0 +1,8 @@
+func isPowerOfThree(n int) bool {
+	if n == 0 {
+		return false
+	}
+	for ; n/3*3 == n; n /= 3 {
+	}
+	return n == 1
+}
