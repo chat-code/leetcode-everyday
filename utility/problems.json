@@ -2,6 +2,380 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 1998,
+                "question__title": "GCD Sort of an Array",
+                "question__title_slug": "gcd-sort-of-an-array"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1997,
+                "question__title": "First Day Where You Have Been in All the Rooms",
+                "question__title_slug": "first-day-where-you-have-been-in-all-the-rooms"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1996,
+                "question__title": "The Number of Weak Characters in the Game",
+                "question__title_slug": "the-number-of-weak-characters-in-the-game"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1995,
+                "question__title": "Count Special Quadruplets",
+                "question__title_slug": "count-special-quadruplets"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1971,
+                "question__title": "Find if Path Exists in Graph",
+                "question__title_slug": "find-if-path-exists-in-graph"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1987,
+                "question__title": "Number of Unique Good Subsequences",
+                "question__title_slug": "number-of-unique-good-subsequences"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1986,
+                "question__title": "Minimum Number of Work Sessions to Finish the Tasks",
+                "question__title_slug": "minimum-number-of-work-sessions-to-finish-the-tasks"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1985,
+                "question__title": "Find the Kth Largest Integer in the Array",
+                "question__title_slug": "find-the-kth-largest-integer-in-the-array"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1984,
+                "question__title": "Minimum Difference Between Highest and Lowest of K Scores",
+                "question__title_slug": "minimum-difference-between-highest-and-lowest-of-k-scores"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1982,
+                "question__title": "Find Array Given Subset Sums",
+                "question__title_slug": "find-array-given-subset-sums"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1981,
+                "question__title": "Minimize the Difference Between Target and Chosen Elements",
+                "question__title_slug": "minimize-the-difference-between-target-and-chosen-elements"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1980,
+                "question__title": "Find Unique Binary String",
+                "question__title_slug": "find-unique-binary-string"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1979,
+                "question__title": "Find Greatest Common Divisor of Array",
+                "question__title_slug": "find-greatest-common-divisor-of-array"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1994,
+                "question__title": "The Number of Good Subsets",
+                "question__title_slug": "the-number-of-good-subsets"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1993,
+                "question__title": "Operations on Tree",
+                "question__title_slug": "operations-on-tree"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1992,
+                "question__title": "Find All Groups of Farmland",
+                "question__title_slug": "find-all-groups-of-farmland"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1991,
+                "question__title": "Find the Middle Index in Array",
+                "question__title_slug": "find-the-middle-index-in-array"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1970,
+                "question__title": "Last Day Where You Can Still Cross",
+                "question__title_slug": "last-day-where-you-can-still-cross"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1969,
+                "question__title": "Minimum Non-Zero Product of the Array Elements",
+                "question__title_slug": "minimum-non-zero-product-of-the-array-elements"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1967,
+                "question__title": "Number of Strings That Appear as Substrings in Word",
+                "question__title_slug": "number-of-strings-that-appear-as-substrings-in-word"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1964,
+                "question__title": "Find the Longest Valid Obstacle Course at Each Position",
+                "question__title_slug": "find-the-longest-valid-obstacle-course-at-each-position"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1963,
+                "question__title": "Minimum Number of Swaps to Make the String Balanced",
+                "question__title_slug": "minimum-number-of-swaps-to-make-the-string-balanced"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1962,
+                "question__title": "Remove Stones to Minimize the Total",
+                "question__title_slug": "remove-stones-to-minimize-the-total"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1961,
+                "question__title": "Check If String Is a Prefix of Array",
+                "question__title_slug": "check-if-string-is-a-prefix-of-array"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1977,
+                "question__title": "Number of Ways to Separate Numbers",
+                "question__title_slug": "number-of-ways-to-separate-numbers"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1976,
+                "question__title": "Number of Ways to Arrive at Destination",
+                "question__title_slug": "number-of-ways-to-arrive-at-destination"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1975,
+                "question__title": "Maximum Matrix Sum",
+                "question__title_slug": "maximum-matrix-sum"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1974,
+                "question__title": "Minimum Time to Type Word Using Special Typewriter",
+                "question__title_slug": "minimum-time-to-type-word-using-special-typewriter"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1955,
+                "question__title": "Count Number of Special Subsequences",
+                "question__title_slug": "count-number-of-special-subsequences"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1968,
+                "question__title": "Array With Elements Not Equal to Average of Neighbors",
+                "question__title_slug": "array-with-elements-not-equal-to-average-of-neighbors"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1953,
+                "question__title": "Maximum Number of Weeks for Which You Can Work",
+                "question__title_slug": "maximum-number-of-weeks-for-which-you-can-work"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1952,
+                "question__title": "Three Divisors",
+                "question__title_slug": "three-divisors"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1959,
+                "question__title": "Minimum Total Space Wasted With K Resizing Operations",
+                "question__title_slug": "minimum-total-space-wasted-with-k-resizing-operations"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1958,
+                "question__title": "Check if Move is Legal",
+                "question__title_slug": "check-if-move-is-legal"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 1948,
                 "question__title": "Delete Duplicate Folders in System",
                 "question__title_slug": "delete-duplicate-folders-in-system"
@@ -5645,6 +6019,17 @@
         },
         {
             "stat": {
+                "frontend_question_id": 1960,
+                "question__title": "Maximum Product of the Length of Two Palindromic Substrings",
+                "question__title_slug": "maximum-product-of-the-length-of-two-palindromic-substrings"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 1220,
                 "question__title": "Count Vowels Permutation",
                 "question__title_slug": "count-vowels-permutation"
@@ -5854,6 +6239,17 @@
         },
         {
             "stat": {
+                "frontend_question_id": 1957,
+                "question__title": "Delete Characters to Make Fancy String",
+                "question__title_slug": "delete-characters-to-make-fancy-string"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 1192,
                 "question__title": "Critical Connections in a Network",
                 "question__title_slug": "critical-connections-in-a-network"
@@ -5904,6 +6300,17 @@
             },
             "difficulty": {
                 "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 1954,
+                "question__title": "Minimum Garden Perimeter to Collect Enough Apples",
+                "question__title_slug": "minimum-garden-perimeter-to-collect-enough-apples"
+            },
+            "difficulty": {
+                "level": 2
             },
             "paid_only": false
         },
@@ -7113,7 +7520,7 @@
                 "question__title_slug": "moving-stones-until-consecutive"
             },
             "difficulty": {
-                "level": 1
+                "level": 2
             },
             "paid_only": false
         },
@@ -7641,7 +8048,7 @@
                 "question__title_slug": "sum-of-even-numbers-after-queries"
             },
             "difficulty": {
-                "level": 1
+                "level": 2
             },
             "paid_only": false
         },
@@ -9665,7 +10072,7 @@
                 "question__title_slug": "subdomain-visit-count"
             },
             "difficulty": {
-                "level": 1
+                "level": 2
             },
             "paid_only": false
         },
@@ -15066,7 +15473,7 @@
                 "question__title_slug": "best-time-to-buy-and-sell-stock-ii"
             },
             "difficulty": {
-                "level": 1
+                "level": 2
             },
             "paid_only": false
         },
