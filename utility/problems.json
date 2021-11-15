@@ -2,6 +2,182 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 2076,
+                "question__title": "Process Restricted Friend Requests",
+                "question__title_slug": "process-restricted-friend-requests"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2075,
+                "question__title": "Decode the Slanted Ciphertext",
+                "question__title_slug": "decode-the-slanted-ciphertext"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2074,
+                "question__title": "Reverse Nodes in Even Length Groups",
+                "question__title_slug": "reverse-nodes-in-even-length-groups"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2073,
+                "question__title": "Time Needed to Buy Tickets",
+                "question__title_slug": "time-needed-to-buy-tickets"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2065,
+                "question__title": "Maximum Path Quality of a Graph",
+                "question__title_slug": "maximum-path-quality-of-a-graph"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2064,
+                "question__title": "Minimized Maximum of Products Distributed to Any Store",
+                "question__title_slug": "minimized-maximum-of-products-distributed-to-any-store"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2063,
+                "question__title": "Vowels of All Substrings",
+                "question__title_slug": "vowels-of-all-substrings"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2062,
+                "question__title": "Count Vowel Substrings of a String",
+                "question__title_slug": "count-vowel-substrings-of-a-string"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2060,
+                "question__title": "Check if an Original String Exists Given Two Encoded Strings",
+                "question__title_slug": "check-if-an-original-string-exists-given-two-encoded-strings"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2059,
+                "question__title": "Minimum Operations to Convert Number",
+                "question__title_slug": "minimum-operations-to-convert-number"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2058,
+                "question__title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+                "question__title_slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2057,
+                "question__title": "Smallest Index With Equal Value",
+                "question__title_slug": "smallest-index-with-equal-value"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2071,
+                "question__title": "Maximum Number of Tasks You Can Assign",
+                "question__title_slug": "maximum-number-of-tasks-you-can-assign"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2070,
+                "question__title": "Most Beautiful Item for Each Query",
+                "question__title_slug": "most-beautiful-item-for-each-query"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2069,
+                "question__title": "Walking Robot Simulation II",
+                "question__title_slug": "walking-robot-simulation-ii"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2068,
+                "question__title": "Check Whether Two Strings are Almost Equivalent",
+                "question__title_slug": "check-whether-two-strings-are-almost-equivalent"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 2050,
                 "question__title": "Parallel Courses III",
                 "question__title_slug": "parallel-courses-iii"
@@ -82,6 +258,50 @@
                 "frontend_question_id": 2042,
                 "question__title": "Check if Numbers Are Ascending in a Sentence",
                 "question__title_slug": "check-if-numbers-are-ascending-in-a-sentence"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2056,
+                "question__title": "Number of Valid Move Combinations On Chessboard",
+                "question__title_slug": "number-of-valid-move-combinations-on-chessboard"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2055,
+                "question__title": "Plates Between Candles",
+                "question__title_slug": "plates-between-candles"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2054,
+                "question__title": "Two Best Non-Overlapping Events",
+                "question__title_slug": "two-best-non-overlapping-events"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2053,
+                "question__title": "Kth Distinct String in an Array",
+                "question__title_slug": "kth-distinct-string-in-an-array"
             },
             "difficulty": {
                 "level": 1
@@ -11678,7 +11898,7 @@
                 "question__title_slug": "employee-importance"
             },
             "difficulty": {
-                "level": 1
+                "level": 2
             },
             "paid_only": false
         },
@@ -14362,7 +14582,7 @@
                 "question__title_slug": "reconstruct-itinerary"
             },
             "difficulty": {
-                "level": 2
+                "level": 3
             },
             "paid_only": false
         },
@@ -15480,7 +15700,7 @@
         {
             "stat": {
                 "frontend_question_id": 167,
-                "question__title": "Two Sum II - Input array is sorted",
+                "question__title": "Two Sum II - Input Array Is Sorted",
                 "question__title_slug": "two-sum-ii-input-array-is-sorted"
             },
             "difficulty": {
@@ -17185,7 +17405,7 @@
         {
             "stat": {
                 "frontend_question_id": 6,
-                "question__title": "ZigZag Conversion",
+                "question__title": "Zigzag Conversion",
                 "question__title_slug": "zigzag-conversion"
             },
             "difficulty": {
