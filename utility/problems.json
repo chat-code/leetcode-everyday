@@ -2,6 +2,28 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 2081,
+                "question__title": "Sum of k-Mirror Numbers",
+                "question__title_slug": "sum-of-k-mirror-numbers"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2078,
+                "question__title": "Two Furthest Houses With Different Colors",
+                "question__title_slug": "two-furthest-houses-with-different-colors"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 2076,
                 "question__title": "Process Restricted Friend Requests",
                 "question__title_slug": "process-restricted-friend-requests"
@@ -38,6 +60,50 @@
                 "frontend_question_id": 2073,
                 "question__title": "Time Needed to Buy Tickets",
                 "question__title_slug": "time-needed-to-buy-tickets"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2088,
+                "question__title": "Count Fertile Pyramids in a Land",
+                "question__title_slug": "count-fertile-pyramids-in-a-land"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2087,
+                "question__title": "Minimum Cost Homecoming of a Robot in a Grid",
+                "question__title_slug": "minimum-cost-homecoming-of-a-robot-in-a-grid"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2086,
+                "question__title": "Minimum Number of Buckets Required to Collect Rainwater from Houses",
+                "question__title_slug": "minimum-number-of-buckets-required-to-collect-rainwater-from-houses"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2085,
+                "question__title": "Count Common Words With One Occurrence",
+                "question__title_slug": "count-common-words-with-one-occurrence"
             },
             "difficulty": {
                 "level": 1
@@ -6833,6 +6899,17 @@
         },
         {
             "stat": {
+                "frontend_question_id": 2079,
+                "question__title": "Watering Plants",
+                "question__title_slug": "watering-plants"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 1203,
                 "question__title": "Sort Items by Groups Respecting Dependencies",
                 "question__title_slug": "sort-items-by-groups-respecting-dependencies"
@@ -6968,6 +7045,17 @@
                 "frontend_question_id": 1954,
                 "question__title": "Minimum Garden Perimeter to Collect Enough Apples",
                 "question__title_slug": "minimum-garden-perimeter-to-collect-enough-apples"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2080,
+                "question__title": "Range Frequency Queries",
+                "question__title_slug": "range-frequency-queries"
             },
             "difficulty": {
                 "level": 2
