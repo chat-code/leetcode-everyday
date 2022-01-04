@@ -2,9 +2,361 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 2127,
+                "question__title": "Maximum Employees to Be Invited to a Meeting",
+                "question__title_slug": "maximum-employees-to-be-invited-to-a-meeting"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2126,
+                "question__title": "Destroying Asteroids",
+                "question__title_slug": "destroying-asteroids"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2125,
+                "question__title": "Number of Laser Beams in a Bank",
+                "question__title_slug": "number-of-laser-beams-in-a-bank"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2124,
+                "question__title": "Check if All A's Appears Before All B's",
+                "question__title_slug": "check-if-all-as-appears-before-all-bs"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2122,
+                "question__title": "Recover the Original Array",
+                "question__title_slug": "recover-the-original-array"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2121,
+                "question__title": "Intervals Between Identical Elements",
+                "question__title_slug": "intervals-between-identical-elements"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2120,
+                "question__title": "Execution of All Suffix Instructions Staying in a Grid",
+                "question__title_slug": "execution-of-all-suffix-instructions-staying-in-a-grid"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2119,
+                "question__title": "A Number After a Double Reversal",
+                "question__title_slug": "a-number-after-a-double-reversal"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2111,
+                "question__title": "Minimum Operations to Make the Array K-Increasing",
+                "question__title_slug": "minimum-operations-to-make-the-array-k-increasing"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2110,
+                "question__title": "Number of Smooth Descent Periods of a Stock",
+                "question__title_slug": "number-of-smooth-descent-periods-of-a-stock"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2109,
+                "question__title": "Adding Spaces to a String",
+                "question__title_slug": "adding-spaces-to-a-string"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2108,
+                "question__title": "Find First Palindromic String in the Array",
+                "question__title_slug": "find-first-palindromic-string-in-the-array"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2106,
+                "question__title": "Maximum Fruits Harvested After at Most K Steps",
+                "question__title_slug": "maximum-fruits-harvested-after-at-most-k-steps"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2105,
+                "question__title": "Watering Plants II",
+                "question__title_slug": "watering-plants-ii"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2104,
+                "question__title": "Sum of Subarray Ranges",
+                "question__title_slug": "sum-of-subarray-ranges"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2103,
+                "question__title": "Rings and Rods",
+                "question__title_slug": "rings-and-rods"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2117,
+                "question__title": "Abbreviating the Product of a Range",
+                "question__title_slug": "abbreviating-the-product-of-a-range"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2116,
+                "question__title": "Check if a Parentheses String Can Be Valid",
+                "question__title_slug": "check-if-a-parentheses-string-can-be-valid"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2115,
+                "question__title": "Find All Possible Recipes from Given Supplies",
+                "question__title_slug": "find-all-possible-recipes-from-given-supplies"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2114,
+                "question__title": "Maximum Number of Words Found in Sentences",
+                "question__title_slug": "maximum-number-of-words-found-in-sentences"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2096,
+                "question__title": "Step-By-Step Directions From a Binary Tree Node to Another",
+                "question__title_slug": "step-by-step-directions-from-a-binary-tree-node-to-another"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2095,
+                "question__title": "Delete the Middle Node of a Linked List",
+                "question__title_slug": "delete-the-middle-node-of-a-linked-list"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2094,
+                "question__title": "Finding 3-Digit Even Numbers",
+                "question__title_slug": "finding-3-digit-even-numbers"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2092,
+                "question__title": "Find All People With Secret",
+                "question__title_slug": "find-all-people-with-secret"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2091,
+                "question__title": "Removing Minimum and Maximum From Array",
+                "question__title_slug": "removing-minimum-and-maximum-from-array"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2090,
+                "question__title": "K Radius Subarray Averages",
+                "question__title_slug": "k-radius-subarray-averages"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2089,
+                "question__title": "Find Target Indices After Sorting Array",
+                "question__title_slug": "find-target-indices-after-sorting-array"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2102,
+                "question__title": "Sequentially Ordinal Rank Tracker",
+                "question__title_slug": "sequentially-ordinal-rank-tracker"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2101,
+                "question__title": "Detonate the Maximum Bombs",
+                "question__title_slug": "detonate-the-maximum-bombs"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2100,
+                "question__title": "Find Good Days to Rob the Bank",
+                "question__title_slug": "find-good-days-to-rob-the-bank"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2099,
+                "question__title": "Find Subsequence of Length K With the Largest Sum",
+                "question__title_slug": "find-subsequence-of-length-k-with-the-largest-sum"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 2081,
                 "question__title": "Sum of k-Mirror Numbers",
                 "question__title_slug": "sum-of-k-mirror-numbers"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2097,
+                "question__title": "Valid Arrangement of Pairs",
+                "question__title_slug": "valid-arrangement-of-pairs"
             },
             "difficulty": {
                 "level": 3
@@ -3985,8 +4337,8 @@
         {
             "stat": {
                 "frontend_question_id": 1578,
-                "question__title": "Minimum Deletion Cost to Avoid Repeating Letters",
-                "question__title_slug": "minimum-deletion-cost-to-avoid-repeating-letters"
+                "question__title": "Minimum Time to Make Rope Colorful",
+                "question__title_slug": "minimum-time-to-make-rope-colorful"
             },
             "difficulty": {
                 "level": 2
@@ -4370,8 +4722,8 @@
         {
             "stat": {
                 "frontend_question_id": 1529,
-                "question__title": "Bulb Switcher IV",
-                "question__title_slug": "bulb-switcher-iv"
+                "question__title": "Minimum Suffix Flips",
+                "question__title_slug": "minimum-suffix-flips"
             },
             "difficulty": {
                 "level": 2
@@ -5635,8 +5987,8 @@
         {
             "stat": {
                 "frontend_question_id": 1375,
-                "question__title": "Bulb Switcher III",
-                "question__title_slug": "bulb-switcher-iii"
+                "question__title": "Number of Times Binary String Is Prefix-Aligned",
+                "question__title_slug": "number-of-times-binary-string-is-prefix-aligned"
             },
             "difficulty": {
                 "level": 2
