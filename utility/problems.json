@@ -2,6 +2,50 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 2136,
+                "question__title": "Earliest Possible Day of Full Bloom",
+                "question__title_slug": "earliest-possible-day-of-full-bloom"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2135,
+                "question__title": "Count Words Obtained After Adding a Letter",
+                "question__title_slug": "count-words-obtained-after-adding-a-letter"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2134,
+                "question__title": "Minimum Swaps to Group All 1's Together II",
+                "question__title_slug": "minimum-swaps-to-group-all-1s-together-ii"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2133,
+                "question__title": "Check if Every Row and Column Contains All Numbers",
+                "question__title_slug": "check-if-every-row-and-column-contains-all-numbers"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 2127,
                 "question__title": "Maximum Employees to Be Invited to a Meeting",
                 "question__title_slug": "maximum-employees-to-be-invited-to-a-meeting"
@@ -82,6 +126,39 @@
                 "frontend_question_id": 2119,
                 "question__title": "A Number After a Double Reversal",
                 "question__title_slug": "a-number-after-a-double-reversal"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2131,
+                "question__title": "Longest Palindrome by Concatenating Two Letter Words",
+                "question__title_slug": "longest-palindrome-by-concatenating-two-letter-words"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2130,
+                "question__title": "Maximum Twin Sum of a Linked List",
+                "question__title_slug": "maximum-twin-sum-of-a-linked-list"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2129,
+                "question__title": "Capitalize the Title",
+                "question__title_slug": "capitalize-the-title"
             },
             "difficulty": {
                 "level": 1
@@ -357,6 +434,17 @@
                 "frontend_question_id": 2097,
                 "question__title": "Valid Arrangement of Pairs",
                 "question__title_slug": "valid-arrangement-of-pairs"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2132,
+                "question__title": "Stamping the Grid",
+                "question__title_slug": "stamping-the-grid"
             },
             "difficulty": {
                 "level": 3
