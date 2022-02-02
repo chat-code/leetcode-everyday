@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-names=(duangduang Saigyouji-Yuyuko dd Alex Kamikakushi jordi abel jojo Yescafe leo)
+names=(duangduang Saigyouji-Yuyuko dd Alex Kamikakushi jordi abel jojo Yescafe leo nonmean)
 tmp_file="__tmp__file__stats"
 
 if [ -f "$tmp_file" ]; then
