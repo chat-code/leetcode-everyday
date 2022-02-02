@@ -2,6 +2,127 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 2157,
+                "question__title": "Groups of Strings",
+                "question__title_slug": "groups-of-strings"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2156,
+                "question__title": "Find Substring With Given Hash Value",
+                "question__title_slug": "find-substring-with-given-hash-value"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2154,
+                "question__title": "Keep Multiplying Found Values by Two",
+                "question__title_slug": "keep-multiplying-found-values-by-two"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2151,
+                "question__title": "Maximum Good People Based on Statements",
+                "question__title_slug": "maximum-good-people-based-on-statements"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2149,
+                "question__title": "Rearrange Array Elements by Sign",
+                "question__title_slug": "rearrange-array-elements-by-sign"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2150,
+                "question__title": "Find All Lonely Numbers in the Array",
+                "question__title_slug": "find-all-lonely-numbers-in-the-array"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2148,
+                "question__title": "Count Elements With Strictly Smaller and Greater Elements ",
+                "question__title_slug": "count-elements-with-strictly-smaller-and-greater-elements"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2141,
+                "question__title": "Maximum Running Time of N Computers",
+                "question__title_slug": "maximum-running-time-of-n-computers"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2140,
+                "question__title": "Solving Questions With Brainpower",
+                "question__title_slug": "solving-questions-with-brainpower"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2155,
+                "question__title": "All Divisions With the Highest Score of a Binary Array",
+                "question__title_slug": "all-divisions-with-the-highest-score-of-a-binary-array"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2138,
+                "question__title": "Divide a String Into Groups of Size k",
+                "question__title_slug": "divide-a-string-into-groups-of-size-k"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 2136,
                 "question__title": "Earliest Possible Day of Full Bloom",
                 "question__title_slug": "earliest-possible-day-of-full-bloom"
@@ -38,6 +159,50 @@
                 "frontend_question_id": 2133,
                 "question__title": "Check if Every Row and Column Contains All Numbers",
                 "question__title_slug": "check-if-every-row-and-column-contains-all-numbers"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2147,
+                "question__title": "Number of Ways to Divide a Long Corridor",
+                "question__title_slug": "number-of-ways-to-divide-a-long-corridor"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2146,
+                "question__title": "K Highest Ranked Items Within a Price Range",
+                "question__title_slug": "k-highest-ranked-items-within-a-price-range"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2145,
+                "question__title": "Count the Hidden Sequences",
+                "question__title_slug": "count-the-hidden-sequences"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2144,
+                "question__title": "Minimum Cost of Buying Candies With Discount",
+                "question__title_slug": "minimum-cost-of-buying-candies-with-discount"
             },
             "difficulty": {
                 "level": 1
@@ -7408,6 +7573,17 @@
                 "frontend_question_id": 1405,
                 "question__title": "Longest Happy String",
                 "question__title_slug": "longest-happy-string"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2139,
+                "question__title": "Minimum Moves to Reach Target Score",
+                "question__title_slug": "minimum-moves-to-reach-target-score"
             },
             "difficulty": {
                 "level": 2
