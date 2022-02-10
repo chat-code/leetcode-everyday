@@ -2,6 +2,50 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 2167,
+                "question__title": "Minimum Time to Remove All Cars Containing Illegal Goods",
+                "question__title_slug": "minimum-time-to-remove-all-cars-containing-illegal-goods"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2166,
+                "question__title": "Design Bitset",
+                "question__title_slug": "design-bitset"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2165,
+                "question__title": "Smallest Value of the Rearranged Number",
+                "question__title_slug": "smallest-value-of-the-rearranged-number"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2164,
+                "question__title": "Sort Even and Odd Indices Independently",
+                "question__title_slug": "sort-even-and-odd-indices-independently"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 2157,
                 "question__title": "Groups of Strings",
                 "question__title_slug": "groups-of-strings"
@@ -18,7 +62,7 @@
                 "question__title_slug": "find-substring-with-given-hash-value"
             },
             "difficulty": {
-                "level": 2
+                "level": 3
             },
             "paid_only": false
         },
@@ -71,6 +115,50 @@
                 "frontend_question_id": 2148,
                 "question__title": "Count Elements With Strictly Smaller and Greater Elements ",
                 "question__title_slug": "count-elements-with-strictly-smaller-and-greater-elements"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2163,
+                "question__title": "Minimum Difference in Sums After Removal of Elements",
+                "question__title_slug": "minimum-difference-in-sums-after-removal-of-elements"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2162,
+                "question__title": "Minimum Cost to Set Cooking Time",
+                "question__title_slug": "minimum-cost-to-set-cooking-time"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2161,
+                "question__title": "Partition Array According to Given Pivot",
+                "question__title_slug": "partition-array-according-to-given-pivot"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2160,
+                "question__title": "Minimum Sum of Four Digit Number After Splitting Digits",
+                "question__title_slug": "minimum-sum-of-four-digit-number-after-splitting-digits"
             },
             "difficulty": {
                 "level": 1
@@ -16408,7 +16496,7 @@
                 "question__title_slug": "two-sum-ii-input-array-is-sorted"
             },
             "difficulty": {
-                "level": 1
+                "level": 2
             },
             "paid_only": false
         },
