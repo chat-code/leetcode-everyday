@@ -69,7 +69,7 @@ public:
 
     for (auto &c : a) m[c - 'a']++;
 
-    string b = "ballon";
+    string b = "balloon";
     map<char, int> m1;
     for (auto &c : b) m1[c]++;
 
