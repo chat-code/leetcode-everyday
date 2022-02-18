@@ -2,6 +2,50 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 2172,
+                "question__title": "Maximum AND Sum of Array",
+                "question__title_slug": "maximum-and-sum-of-array"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2171,
+                "question__title": "Removing Minimum Number of Magic Beans",
+                "question__title_slug": "removing-minimum-number-of-magic-beans"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2170,
+                "question__title": "Minimum Operations to Make the Array Alternating",
+                "question__title_slug": "minimum-operations-to-make-the-array-alternating"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2169,
+                "question__title": "Count Operations to Obtain Zero",
+                "question__title_slug": "count-operations-to-obtain-zero"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 2167,
                 "question__title": "Minimum Time to Remove All Cars Containing Illegal Goods",
                 "question__title_slug": "minimum-time-to-remove-all-cars-containing-illegal-goods"
