@@ -2,6 +2,50 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 2183,
+                "question__title": "Count Array Pairs Divisible by K",
+                "question__title_slug": "count-array-pairs-divisible-by-k"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2182,
+                "question__title": "Construct String With Repeat Limit",
+                "question__title_slug": "construct-string-with-repeat-limit"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2181,
+                "question__title": "Merge Nodes in Between Zeros",
+                "question__title_slug": "merge-nodes-in-between-zeros"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2180,
+                "question__title": "Count Integers With Even Digit Sum",
+                "question__title_slug": "count-integers-with-even-digit-sum"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 2172,
                 "question__title": "Maximum AND Sum of Array",
                 "question__title_slug": "maximum-and-sum-of-array"
@@ -82,6 +126,50 @@
                 "frontend_question_id": 2164,
                 "question__title": "Sort Even and Odd Indices Independently",
                 "question__title_slug": "sort-even-and-odd-indices-independently"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2179,
+                "question__title": "Count Good Triplets in an Array",
+                "question__title_slug": "count-good-triplets-in-an-array"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2178,
+                "question__title": "Maximum Split of Positive Even Integers",
+                "question__title_slug": "maximum-split-of-positive-even-integers"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2177,
+                "question__title": "Find Three Consecutive Integers That Sum to a Given Number",
+                "question__title_slug": "find-three-consecutive-integers-that-sum-to-a-given-number"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 2176,
+                "question__title": "Count Equal and Divisible Pairs in an Array",
+                "question__title_slug": "count-equal-and-divisible-pairs-in-an-array"
             },
             "difficulty": {
                 "level": 1
