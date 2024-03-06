@@ -151,6 +151,8 @@ struct TreeNode {
 #endif
 // End of LeetCode
 
+int dp[15][1 << 10];
+
 class Solution {
 public:
   int len;
@@ -159,6 +161,9 @@ public:
   int dfs(int pos, int mask, bool bound, bool number) {
     if (pos == len)
       return number;
+
+    if (!bound && number && dp[pos][mask] != -1)
+      return dp[pos][mask];
 
     int up = 9;
     if (bound)
@@ -177,12 +182,15 @@ public:
         ans += dfs(pos + 1, mask | (1 << i), bound && (i == up), true);
     }
 
+    if (!bound && number)
+      dp[pos][mask] = ans;
     return ans;
   }
 
   int countSpecialNumbers(int n) {
     s = to_string(n);
     len = SZ(s);
+    memset(dp, -1, sizeof dp);
 
     return dfs(0, 0, true, false);
   }
