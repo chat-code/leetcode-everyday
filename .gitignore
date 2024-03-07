@@ -6,3 +6,5 @@ __pycache__
 .DS_Store
 a.out
 .vscode
+.clangd
+.clang-format
