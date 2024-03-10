@@ -8,7 +8,7 @@ import subprocess
 
 SUB_DIRS = ["."]
 README_TEMPLATE = "./utility/README_template.md"
-README_NEW = "READEME.md"
+README_NEW = "README.md"
 TRUE_ALIAS = ("", "t", "T", "True")
 
 
@@ -26,7 +26,9 @@ class ReadmeInfo:
 def check_cwd():
     git_dir = Path(".git")
     if not git_dir.exists():
-        raise FileNotFoundError("Sub-dir '.git' not found. Run this script at the root-dir of repository.")
+        raise FileNotFoundError(
+            "Sub-dir '.git' not found. Run this script at the root-dir of repository."
+        )
 
 
 def get_past_problems(sub_dirs: List[str]) -> Tuple:
@@ -36,10 +38,14 @@ def get_past_problems(sub_dirs: List[str]) -> Tuple:
         for x in Path(subdir).rglob("20*_*"):
             if x.is_dir():
                 dir_name = str(x.relative_to(subdir).name)
-                pick_date, lc_id = dir_name.split('_')
-                dates.append(date(year=int(pick_date[:4]),
-                                  month=int(pick_date[4:6]),
-                                  day=int(pick_date[6:])))
+                pick_date, lc_id = dir_name.split("_")
+                dates.append(
+                    date(
+                        year=int(pick_date[:4]),
+                        month=int(pick_date[4:6]),
+                        day=int(pick_date[6:]),
+                    )
+                )
                 lc_ids.append(int(lc_id))
 
     dates.sort()
@@ -104,7 +110,7 @@ def get_problem_info(info: Dict):
     # handle special words in title
     for s in (" Ii", " Iii"):
         if title.endswith(s):
-            title = title[:-len(s)] + s.upper()
+            title = title[: -len(s)] + s.upper()
 
     level = input("Input level (E/[M]/H): ")
     if level == "":
@@ -114,7 +120,9 @@ def get_problem_info(info: Dict):
     info["level"] = level
 
 
-def create_readme(md_template: str, md_new: str, dirname: str, info: Dict, from_input=True) -> ReadmeInfo:
+def create_readme(
+    md_template: str, md_new: str, dirname: str, info: Dict, from_input=True
+) -> ReadmeInfo:
     if from_input:
         get_problem_info(info)
     new_dir = Path(dirname)
@@ -127,14 +135,14 @@ def create_readme(md_template: str, md_new: str, dirname: str, info: Dict, from_
     print("=" * 40)
     print(md_new_text)
     print("=" * 40)
-    return ReadmeInfo(new_dir, md_new, md_new_text, info['id'])
+    return ReadmeInfo(new_dir, md_new, md_new_text, info["id"])
 
 
 def commit_readme(rm: ReadmeInfo, auto=False):
     is_confirmed = "T" if auto else input(f"Wirte to file ./{rm.dir}/{rm.name}? [T]/F ")
     if is_confirmed in TRUE_ALIAS:
         rm.dir.mkdir()
-        with rm.get_path().open('w') as f:
+        with rm.get_path().open("w") as f:
             f.write(rm.content)
         is_auto_git = "T" if auto else input("Auto commit? [T]/F ")
         if is_auto_git in TRUE_ALIAS:
@@ -162,5 +170,5 @@ def hand_pick():
     commit_readme(readme)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     hand_pick()
