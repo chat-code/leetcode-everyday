@@ -1,3 +1,4 @@
+import sys
 from random import choice
 from typing import List
 
@@ -27,7 +28,13 @@ def random_pick(max_past_days):
 
 def choose_pick(max_past_days):
     check_cwd()
-    pid = int(input('choose problem id: '))
+
+    try:
+        pid = int(input('choose problem id: '))
+    except KeyboardInterrupt:
+        print("\nGoodBye!")
+        sys.exit(0)
+
     dates, lc_ids = get_past_problems(SUB_DIRS)
     problems_to_do = \
       list(filter(lambda x: x.pid not in lc_ids,
