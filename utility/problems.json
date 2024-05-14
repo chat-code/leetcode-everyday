@@ -2,9 +2,449 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 3149,
+                "question__title": "Find the Minimum Cost Array Permutation",
+                "question__title_slug": "find-the-minimum-cost-array-permutation"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3143,
+                "question__title": "Maximum Points Inside the Square",
+                "question__title_slug": "maximum-points-inside-the-square"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3142,
+                "question__title": "Check if Grid Satisfies Conditions",
+                "question__title_slug": "check-if-grid-satisfies-conditions"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3146,
+                "question__title": "Permutation Difference between Two Strings",
+                "question__title_slug": "permutation-difference-between-two-strings"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3145,
+                "question__title": "Find Products of Elements of Big Array",
+                "question__title_slug": "find-products-of-elements-of-big-array"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3120,
+                "question__title": "Count the Number of Special Characters I",
+                "question__title_slug": "count-the-number-of-special-characters-i"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3130,
+                "question__title": "Find All Possible Stable Binary Arrays II",
+                "question__title_slug": "find-all-possible-stable-binary-arrays-ii"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3129,
+                "question__title": "Find All Possible Stable Binary Arrays I",
+                "question__title_slug": "find-all-possible-stable-binary-arrays-i"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3121,
+                "question__title": "Count the Number of Special Characters II",
+                "question__title_slug": "count-the-number-of-special-characters-ii"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3122,
+                "question__title": "Minimum Number of Operations to Satisfy Conditions",
+                "question__title_slug": "minimum-number-of-operations-to-satisfy-conditions"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3144,
+                "question__title": "Minimum Substring Partition of Equal Character Frequency",
+                "question__title_slug": "minimum-substring-partition-of-equal-character-frequency"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3139,
+                "question__title": "Minimum Cost to Equalize Array",
+                "question__title_slug": "minimum-cost-to-equalize-array"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3132,
+                "question__title": "Find the Integer Added to Array II",
+                "question__title_slug": "find-the-integer-added-to-array-ii"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3127,
+                "question__title": "Make a Square with the Same Color",
+                "question__title_slug": "make-a-square-with-the-same-color"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3131,
+                "question__title": "Find the Integer Added to Array I",
+                "question__title_slug": "find-the-integer-added-to-array-i"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3136,
+                "question__title": "Valid Word",
+                "question__title_slug": "valid-word"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3138,
+                "question__title": "Minimum Length of Anagram Concatenation",
+                "question__title_slug": "minimum-length-of-anagram-concatenation"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3133,
+                "question__title": "Minimum Array End",
+                "question__title_slug": "minimum-array-end"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3148,
+                "question__title": "Maximum Difference Score in a Grid",
+                "question__title_slug": "maximum-difference-score-in-a-grid"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3111,
+                "question__title": "Minimum Rectangles to Cover Points",
+                "question__title_slug": "minimum-rectangles-to-cover-points"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3112,
+                "question__title": "Minimum Time to Visit Disappearing Nodes",
+                "question__title_slug": "minimum-time-to-visit-disappearing-nodes"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3128,
+                "question__title": "Right Triangles",
+                "question__title_slug": "right-triangles"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3107,
+                "question__title": "Minimum Operations to Make Median of Array Equal to K",
+                "question__title_slug": "minimum-operations-to-make-median-of-array-equal-to-k"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3123,
+                "question__title": "Find Edges in Shortest Paths",
+                "question__title_slug": "find-edges-in-shortest-paths"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3137,
+                "question__title": "Minimum Number of Operations to Make Word K-Periodic",
+                "question__title_slug": "minimum-number-of-operations-to-make-word-k-periodic"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3147,
+                "question__title": "Taking Maximum Energy From the Mystic Dungeon",
+                "question__title_slug": "taking-maximum-energy-from-the-mystic-dungeon"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3113,
+                "question__title": "Find the Number of Subarrays Where Boundary Elements Are Maximum",
+                "question__title_slug": "find-the-number-of-subarrays-where-boundary-elements-are-maximum"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3095,
+                "question__title": "Shortest Subarray With OR at Least K I",
+                "question__title_slug": "shortest-subarray-with-or-at-least-k-i"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3097,
+                "question__title": "Shortest Subarray With OR at Least K II",
+                "question__title_slug": "shortest-subarray-with-or-at-least-k-ii"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3110,
+                "question__title": "Score of a String",
+                "question__title_slug": "score-of-a-string"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3093,
+                "question__title": "Longest Common Suffix Queries",
+                "question__title_slug": "longest-common-suffix-queries"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3116,
+                "question__title": "Kth Smallest Amount With Single Denomination Combination",
+                "question__title_slug": "kth-smallest-amount-with-single-denomination-combination"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3101,
+                "question__title": "Count Alternating Subarrays",
+                "question__title_slug": "count-alternating-subarrays"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3115,
+                "question__title": "Maximum Prime Difference",
+                "question__title_slug": "maximum-prime-difference"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3105,
+                "question__title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+                "question__title_slug": "longest-strictly-increasing-or-strictly-decreasing-subarray"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3099,
+                "question__title": "Harshad Number",
+                "question__title_slug": "harshad-number"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 3079,
                 "question__title": "Find the Sum of Encrypted Integers",
                 "question__title_slug": "find-the-sum-of-encrypted-integers"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3117,
+                "question__title": "Minimum Sum of Values by Dividing Array",
+                "question__title_slug": "minimum-sum-of-values-by-dividing-array"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3092,
+                "question__title": "Most Frequent IDs",
+                "question__title_slug": "most-frequent-ids"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3134,
+                "question__title": "Find the Median of the Uniqueness Array",
+                "question__title_slug": "find-the-median-of-the-uniqueness-array"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3114,
+                "question__title": "Latest Time You Can Obtain After Replacing Characters",
+                "question__title_slug": "latest-time-you-can-obtain-after-replacing-characters"
             },
             "difficulty": {
                 "level": 1
@@ -27,6 +467,17 @@
                 "frontend_question_id": 3076,
                 "question__title": "Shortest Uncommon Substring in an Array",
                 "question__title_slug": "shortest-uncommon-substring-in-an-array"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3096,
+                "question__title": "Minimum Levels to Gain More Points",
+                "question__title_slug": "minimum-levels-to-gain-more-points"
             },
             "difficulty": {
                 "level": 2
@@ -79,6 +530,28 @@
         },
         {
             "stat": {
+                "frontend_question_id": 3090,
+                "question__title": "Maximum Length Substring With Two Occurrences",
+                "question__title_slug": "maximum-length-substring-with-two-occurrences"
+            },
+            "difficulty": {
+                "level": 1
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3108,
+                "question__title": "Minimum Cost Walk in Weighted Graph",
+                "question__title_slug": "minimum-cost-walk-in-weighted-graph"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 3069,
                 "question__title": "Distribute Elements Into Two Arrays I",
                 "question__title_slug": "distribute-elements-into-two-arrays-i"
@@ -90,9 +563,31 @@
         },
         {
             "stat": {
+                "frontend_question_id": 3106,
+                "question__title": "Lexicographically Smallest String After Operations With Constraint",
+                "question__title_slug": "lexicographically-smallest-string-after-operations-with-constraint"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
                 "frontend_question_id": 3082,
                 "question__title": "Find the Sum of the Power of All Subsequences",
                 "question__title_slug": "find-the-sum-of-the-power-of-all-subsequences"
+            },
+            "difficulty": {
+                "level": 3
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3102,
+                "question__title": "Minimize Manhattan Distances",
+                "question__title_slug": "minimize-manhattan-distances"
             },
             "difficulty": {
                 "level": 3
@@ -115,6 +610,17 @@
                 "frontend_question_id": 3084,
                 "question__title": "Count Substrings Starting and Ending with Given Character",
                 "question__title_slug": "count-substrings-starting-and-ending-with-given-character"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3100,
+                "question__title": "Water Bottles II",
+                "question__title_slug": "water-bottles-ii"
             },
             "difficulty": {
                 "level": 2
@@ -181,6 +687,17 @@
                 "frontend_question_id": 3043,
                 "question__title": "Find the Length of the Longest Common Prefix",
                 "question__title_slug": "find-the-length-of-the-longest-common-prefix"
+            },
+            "difficulty": {
+                "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3091,
+                "question__title": "Apply Operations to Make Sum of Array Greater Than or Equal to k",
+                "question__title_slug": "apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k"
             },
             "difficulty": {
                 "level": 2
@@ -272,6 +789,17 @@
             },
             "difficulty": {
                 "level": 2
+            },
+            "paid_only": false
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3098,
+                "question__title": "Find the Sum of Subsequence Powers",
+                "question__title_slug": "find-the-sum-of-subsequence-powers"
+            },
+            "difficulty": {
+                "level": 3
             },
             "paid_only": false
         },
@@ -1961,7 +2489,7 @@
         {
             "stat": {
                 "frontend_question_id": 2843,
-                "question__title": " Count Symmetric Integers",
+                "question__title": "  Count Symmetric Integers",
                 "question__title_slug": "count-symmetric-integers"
             },
             "difficulty": {
@@ -11883,7 +12411,7 @@
         {
             "stat": {
                 "frontend_question_id": 1560,
-                "question__title": "Most Visited Sector in a Circular Track",
+                "question__title": "Most Visited Sector in  a Circular Track",
                 "question__title_slug": "most-visited-sector-in-a-circular-track"
             },
             "difficulty": {

@@ -1,25 +1,30 @@
 import json
+import argparse
 
-if __name__ == '__main__':
-    file_name = 'problems_1.json'
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("file_name", type=str, help="The JSON file to clean")
+    args = parser.parse_args()
+
+    file_name = args.file_name
     info_lst = []
     with open(file_name) as fh:
-        for info in json.load(fh)['stat_status_pairs']:
+        for info in json.load(fh)["stat_status_pairs"]:
             item = {
-                'stat': {
-                    'frontend_question_id': info['stat']['frontend_question_id'],
-                    'question__title': info['stat']['question__title'],
-                    'question__title_slug': info['stat']['question__title_slug'],
+                "stat": {
+                    "frontend_question_id": info["stat"]["frontend_question_id"],
+                    "question__title": info["stat"]["question__title"],
+                    "question__title_slug": info["stat"]["question__title_slug"],
                 },
-                'difficulty': {},
+                "difficulty": {},
             }
-            if not info['paid_only']:
-                item['paid_only'] = info['paid_only']
-                item['difficulty']['level'] = info['difficulty']['level']
+            if not info["paid_only"]:
+                item["paid_only"] = info["paid_only"]
+                item["difficulty"]["level"] = info["difficulty"]["level"]
                 info_lst.append(item)
 
-    with open('problems_1.json', 'w') as fh:
+    with open(file_name, "w") as fh:
         info_all = {
-            'stat_status_pairs': info_lst,
+            "stat_status_pairs": info_lst,
         }
         json.dump(info_all, fh)
