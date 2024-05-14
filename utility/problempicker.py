@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 from dataclasses import dataclass
 from datetime import date, timedelta
-from pathlib import Path
+from pathlib import Path, PurePath
 from typing import *
 import subprocess
+import os
+import copy
 
 
 SUB_DIRS = ["."]
@@ -138,10 +140,14 @@ def create_readme(
     return ReadmeInfo(new_dir, md_new, md_new_text, info["id"])
 
 
-def commit_readme(rm: ReadmeInfo, auto=False):
+def commit_readme(rm_: ReadmeInfo, auto=False):
+    rm = copy.deepcopy(rm_)
+    subdir = rm.dir.name.split("_")[0][:-2]
+    rm.dir = Path(PurePath("archive", subdir, rm.dir))
+
     is_confirmed = "T" if auto else input(f"Wirte to file ./{rm.dir}/{rm.name}? [T]/F ")
     if is_confirmed in TRUE_ALIAS:
-        rm.dir.mkdir()
+        rm.dir.mkdir(parents=True)
         with rm.get_path().open("w") as f:
             f.write(rm.content)
         is_auto_git = "T" if auto else input("Auto commit? [T]/F ")

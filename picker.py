@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 
 from utility.problemautopicker import random_pick, choose_pick, random_generate, week_pick
