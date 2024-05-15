@@ -151,7 +151,7 @@ def commit_readme(rm_: ReadmeInfo, auto=False):
             f.write(rm.content)
         is_auto_git = "T" if auto else input("Auto commit? [T]/F ")
         if is_auto_git in TRUE_ALIAS:
-            subprocess.run(["git", "add", rm.dir.name])
+            subprocess.run(["git", "add", str(rm.dir)])
             subprocess.run(["git", "commit", "-m", "pick " + str(rm.rid)])
 
 
