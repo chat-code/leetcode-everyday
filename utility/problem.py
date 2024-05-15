@@ -17,25 +17,30 @@ class Problem:
 
     def to_dict(self):
         return {
-            'id': self.pid,
-            'date': self.new_date,
-            'title': self.title,
-            'link': self.url,
-            'level': self.difficulty
+            "id": self.pid,
+            "date": self.new_date,
+            "title": self.title,
+            "link": self.url,
+            "level": self.difficulty,
         }
 
     @classmethod
     def from_dict(cls, info: Dict, new_date: date):
-        dif = {1: 'Easy', 2: 'Medium', 3: 'Hard'}[info['difficulty']['level']]
-        stat = info['stat']
-        return cls(stat['frontend_question_id'], stat['question__title'], PROBLEM_URL_PREFIX + stat['question__title_slug'], dif,
-                   new_date)
+        dif = {1: "Easy", 2: "Medium", 3: "Hard"}[info["difficulty"]["level"]]
+        stat = info["stat"]
+        return cls(
+            stat["frontend_question_id"],
+            stat["question__title"],
+            PROBLEM_URL_PREFIX + stat["question__title_slug"],
+            dif,
+            new_date,
+        )
 
     @classmethod
     def from_file(cls, new_date: date):
         with open("utility/problems.json") as fp:
-            for info in json.load(fp)['stat_status_pairs']:
-                if not info['paid_only']:
+            for info in json.load(fp)["stat_status_pairs"]:
+                if not info.get("paid_only", None):
                     yield cls.from_dict(info, new_date)
 
     def get_new_dir_name(self) -> str:

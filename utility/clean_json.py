@@ -27,10 +27,8 @@ if __name__ == "__main__":
                 },
                 "difficulty": {},
             }
-            if not info["paid_only"]:
-                item["paid_only"] = info["paid_only"]
+            if not info.get("paid_only", None):
                 item["difficulty"]["level"] = info["difficulty"]["level"]
-                del item["paid_only"]
                 info_lst.append(item)
 
     with open(output_file_name, "w") as fh:
