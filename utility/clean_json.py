@@ -3,10 +3,19 @@ import argparse
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("file_name", type=str, help="The JSON file to clean")
+    parser.add_argument("--input", type=str, help="The JSON file to clean")
+    parser.add_argument(
+        "--output",
+        type=str,
+        help="The JSON file to output",
+        default="problems.json",
+        required=False,
+    )
     args = parser.parse_args()
 
-    file_name = args.file_name
+    file_name = args.input
+    output_file_name = args.output
+
     info_lst = []
     with open(file_name) as fh:
         for info in json.load(fh)["stat_status_pairs"]:
@@ -21,10 +30,12 @@ if __name__ == "__main__":
             if not info["paid_only"]:
                 item["paid_only"] = info["paid_only"]
                 item["difficulty"]["level"] = info["difficulty"]["level"]
+                del item["paid_only"]
                 info_lst.append(item)
 
-    with open(file_name, "w") as fh:
+    with open(output_file_name, "w") as fh:
         info_all = {
             "stat_status_pairs": info_lst,
         }
-        json.dump(info_all, fh)
+        json.dump(info_all, fh, indent=4)
+        fh.write("\n")

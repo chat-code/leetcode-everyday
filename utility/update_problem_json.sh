@@ -31,9 +31,4 @@ if [ "$ONLY_CLEAN_FORMAT" = false ]; then
 fi
 
 # Use clean_json.py to clean the JSON
-python3 clean_json.py problems_in.json
-# Format the JSON file
-python3 -m json.tool problems_in.json >formatted_problems.json
-# Rename the output file to problems.json
-mv formatted_problems.json problems.json
-rm problems_in.json
+python3 clean_json.py --input problems_in.json
