@@ -32,3 +32,9 @@ fi
 
 # Use clean_json.py to clean the JSON
 python3 clean_json.py --input problems_in.json
+
+if [ -f problems_in.json ];
+then
+    rm problems_in.json
+fi
+

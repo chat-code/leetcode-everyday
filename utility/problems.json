@@ -2,12 +2,1562 @@
     "stat_status_pairs": [
         {
             "stat": {
+                "frontend_question_id": 3357,
+                "question__title": "Minimize the Maximum Adjacent Element Difference",
+                "question__title_slug": "minimize-the-maximum-adjacent-element-difference"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3351,
+                "question__title": "Sum of Good Subsequences",
+                "question__title_slug": "sum-of-good-subsequences"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3356,
+                "question__title": "Zero Array Transformation II",
+                "question__title_slug": "zero-array-transformation-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3347,
+                "question__title": "Maximum Frequency of an Element After Performing Operations II",
+                "question__title_slug": "maximum-frequency-of-an-element-after-performing-operations-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3355,
+                "question__title": "Zero Array Transformation I",
+                "question__title_slug": "zero-array-transformation-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3343,
+                "question__title": "Count Number of Balanced Permutations",
+                "question__title_slug": "count-number-of-balanced-permutations"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3340,
+                "question__title": "Check Balanced String",
+                "question__title_slug": "check-balanced-string"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3348,
+                "question__title": "Smallest Divisible Digit Product II",
+                "question__title_slug": "smallest-divisible-digit-product-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3352,
+                "question__title": "Count K-Reducible Numbers Less Than N",
+                "question__title_slug": "count-k-reducible-numbers-less-than-n"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3337,
+                "question__title": "Total Characters in String After Transformations II",
+                "question__title_slug": "total-characters-in-string-after-transformations-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3335,
+                "question__title": "Total Characters in String After Transformations I",
+                "question__title_slug": "total-characters-in-string-after-transformations-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3342,
+                "question__title": "Find Minimum Time to Reach Last Room II",
+                "question__title_slug": "find-minimum-time-to-reach-last-room-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3341,
+                "question__title": "Find Minimum Time to Reach Last Room I",
+                "question__title_slug": "find-minimum-time-to-reach-last-room-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3345,
+                "question__title": "Smallest Divisible Digit Product I",
+                "question__title_slug": "smallest-divisible-digit-product-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3346,
+                "question__title": "Maximum Frequency of an Element After Performing Operations I",
+                "question__title_slug": "maximum-frequency-of-an-element-after-performing-operations-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3350,
+                "question__title": "Adjacent Increasing Subarrays Detection II",
+                "question__title_slug": "adjacent-increasing-subarrays-detection-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3333,
+                "question__title": "Find the Original Typed String II",
+                "question__title_slug": "find-the-original-typed-string-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3330,
+                "question__title": "Find the Original Typed String I",
+                "question__title_slug": "find-the-original-typed-string-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3354,
+                "question__title": "Make Array Elements Equal to Zero",
+                "question__title_slug": "make-array-elements-equal-to-zero"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3349,
+                "question__title": "Adjacent Increasing Subarrays Detection I",
+                "question__title_slug": "adjacent-increasing-subarrays-detection-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3315,
+                "question__title": "Construct the Minimum Bitwise Array II",
+                "question__title_slug": "construct-the-minimum-bitwise-array-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3318,
+                "question__title": "Find X-Sum of All K-Long Subarrays I",
+                "question__title_slug": "find-x-sum-of-all-k-long-subarrays-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3336,
+                "question__title": "Find the Number of Subsequences With Equal GCD",
+                "question__title_slug": "find-the-number-of-subsequences-with-equal-gcd"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3326,
+                "question__title": "Minimum Division Operations to Make Array Non Decreasing",
+                "question__title_slug": "minimum-division-operations-to-make-array-non-decreasing"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3300,
+                "question__title": "Minimum Element After Replacement With Digit Sum",
+                "question__title_slug": "minimum-element-after-replacement-with-digit-sum"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3314,
+                "question__title": "Construct the Minimum Bitwise Array I",
+                "question__title_slug": "construct-the-minimum-bitwise-array-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3317,
+                "question__title": "Find the Number of Possible Ways for an Event",
+                "question__title_slug": "find-the-number-of-possible-ways-for-an-event"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3327,
+                "question__title": "Check if DFS Strings Are Palindromes",
+                "question__title_slug": "check-if-dfs-strings-are-palindromes"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3307,
+                "question__title": "Find the K-th Character in String Game II",
+                "question__title_slug": "find-the-k-th-character-in-string-game-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3304,
+                "question__title": "Find the K-th Character in String Game I",
+                "question__title_slug": "find-the-k-th-character-in-string-game-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3334,
+                "question__title": "Find the Maximum Factor Score of Array",
+                "question__title_slug": "find-the-maximum-factor-score-of-array"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3321,
+                "question__title": "Find X-Sum of All K-Long Subarrays II",
+                "question__title_slug": "find-x-sum-of-all-k-long-subarrays-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3320,
+                "question__title": "Count The Number of Winning Sequences",
+                "question__title_slug": "count-the-number-of-winning-sequences"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3332,
+                "question__title": "Maximum Points Tourist Can Earn",
+                "question__title_slug": "maximum-points-tourist-can-earn"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3302,
+                "question__title": "Find the Lexicographically Smallest Valid Sequence",
+                "question__title_slug": "find-the-lexicographically-smallest-valid-sequence"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3312,
+                "question__title": "Sorted GCD Pair Queries",
+                "question__title_slug": "sorted-gcd-pair-queries"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3285,
+                "question__title": "Find Indices of Stable Mountains",
+                "question__title_slug": "find-indices-of-stable-mountains"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3289,
+                "question__title": "The Two Sneaky Numbers of Digitville",
+                "question__title_slug": "the-two-sneaky-numbers-of-digitville"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3303,
+                "question__title": "Find the Occurrence of First Almost Equal Substring",
+                "question__title_slug": "find-the-occurrence-of-first-almost-equal-substring"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3309,
+                "question__title": "Maximum Possible Number by Binary Concatenation",
+                "question__title_slug": "maximum-possible-number-by-binary-concatenation"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3311,
+                "question__title": "Construct 2D Grid Matching Graph Layout",
+                "question__title_slug": "construct-2d-grid-matching-graph-layout"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3331,
+                "question__title": "Find Subtree Sizes After Changes",
+                "question__title_slug": "find-subtree-sizes-after-changes"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3287,
+                "question__title": "Find the Maximum Sequence Value of Array",
+                "question__title_slug": "find-the-maximum-sequence-value-of-array"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3297,
+                "question__title": "Count Substrings That Can Be Rearranged to Contain a String I",
+                "question__title_slug": "count-substrings-that-can-be-rearranged-to-contain-a-string-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3298,
+                "question__title": "Count Substrings That Can Be Rearranged to Contain a String II",
+                "question__title_slug": "count-substrings-that-can-be-rearranged-to-contain-a-string-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3288,
+                "question__title": "Length of the Longest Increasing Path",
+                "question__title_slug": "length-of-the-longest-increasing-path"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3305,
+                "question__title": "Count of Substrings Containing Every Vowel and K Consonants I",
+                "question__title_slug": "count-of-substrings-containing-every-vowel-and-k-consonants-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3306,
+                "question__title": "Count of Substrings Containing Every Vowel and K Consonants II",
+                "question__title_slug": "count-of-substrings-containing-every-vowel-and-k-consonants-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3270,
+                "question__title": "Find the Key of the Numbers",
+                "question__title_slug": "find-the-key-of-the-numbers"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3280,
+                "question__title": "Convert Date to Binary",
+                "question__title_slug": "convert-date-to-binary"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3324,
+                "question__title": "Find the Sequence of Strings Appeared on the Screen",
+                "question__title_slug": "find-the-sequence-of-strings-appeared-on-the-screen"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3276,
+                "question__title": "Select Cells in Grid With Maximum Score",
+                "question__title_slug": "select-cells-in-grid-with-maximum-score"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3310,
+                "question__title": "Remove Methods From Project",
+                "question__title_slug": "remove-methods-from-project"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3283,
+                "question__title": "Maximum Number of Moves to Kill All Pawns",
+                "question__title_slug": "maximum-number-of-moves-to-kill-all-pawns"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3291,
+                "question__title": "Minimum Number of Valid Strings to Form Target I",
+                "question__title_slug": "minimum-number-of-valid-strings-to-form-target-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3286,
+                "question__title": "Find a Safe Walk Through a Grid",
+                "question__title_slug": "find-a-safe-walk-through-a-grid"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3292,
+                "question__title": "Minimum Number of Valid Strings to Form Target II",
+                "question__title_slug": "minimum-number-of-valid-strings-to-form-target-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3266,
+                "question__title": "Final Array State After K Multiplication Operations II",
+                "question__title_slug": "final-array-state-after-k-multiplication-operations-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3264,
+                "question__title": "Final Array State After K Multiplication Operations I",
+                "question__title_slug": "final-array-state-after-k-multiplication-operations-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3274,
+                "question__title": "Check if Two Chessboard Squares Have the Same Color",
+                "question__title_slug": "check-if-two-chessboard-squares-have-the-same-color"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3260,
+                "question__title": "Find the Largest Palindrome Divisible by K",
+                "question__title_slug": "find-the-largest-palindrome-divisible-by-k"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3277,
+                "question__title": "Maximum XOR Score Subarray Queries",
+                "question__title_slug": "maximum-xor-score-subarray-queries"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3256,
+                "question__title": "Maximum Value Sum by Placing Three Rooks I",
+                "question__title_slug": "maximum-value-sum-by-placing-three-rooks-i"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3272,
+                "question__title": "Find the Count of Good Integers",
+                "question__title_slug": "find-the-count-of-good-integers"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3261,
+                "question__title": "Count Substrings That Satisfy K-Constraint II",
+                "question__title_slug": "count-substrings-that-satisfy-k-constraint-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3267,
+                "question__title": "Count Almost Equal Pairs II",
+                "question__title_slug": "count-almost-equal-pairs-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3258,
+                "question__title": "Count Substrings That Satisfy K-Constraint I",
+                "question__title_slug": "count-substrings-that-satisfy-k-constraint-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3257,
+                "question__title": "Maximum Value Sum by Placing Three Rooks II",
+                "question__title_slug": "maximum-value-sum-by-placing-three-rooks-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3295,
+                "question__title": "Report Spam Message",
+                "question__title_slug": "report-spam-message"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3271,
+                "question__title": "Hash Divided String",
+                "question__title_slug": "hash-divided-string"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3251,
+                "question__title": "Find the Count of Monotonic Pairs II",
+                "question__title_slug": "find-the-count-of-monotonic-pairs-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3250,
+                "question__title": "Find the Count of Monotonic Pairs I",
+                "question__title_slug": "find-the-count-of-monotonic-pairs-i"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3265,
+                "question__title": "Count Almost Equal Pairs I",
+                "question__title_slug": "count-almost-equal-pairs-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3248,
+                "question__title": "Snake in Matrix",
+                "question__title_slug": "snake-in-matrix"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3241,
+                "question__title": "Time Taken to Mark All Nodes",
+                "question__title_slug": "time-taken-to-mark-all-nodes"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3273,
+                "question__title": "Minimum Amount of Damage Dealt to Bob",
+                "question__title_slug": "minimum-amount-of-damage-dealt-to-bob"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3282,
+                "question__title": "Reach End of Array With Max Score",
+                "question__title_slug": "reach-end-of-array-with-max-score"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3245,
+                "question__title": "Alternating Groups III",
+                "question__title_slug": "alternating-groups-iii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3239,
+                "question__title": "Minimum Number of Flips to Make Binary Grid Palindromic I",
+                "question__title_slug": "minimum-number-of-flips-to-make-binary-grid-palindromic-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3259,
+                "question__title": "Maximum Energy Boost From Two Drinks",
+                "question__title_slug": "maximum-energy-boost-from-two-drinks"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3240,
+                "question__title": "Minimum Number of Flips to Make Binary Grid Palindromic II",
+                "question__title_slug": "minimum-number-of-flips-to-make-binary-grid-palindromic-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3255,
+                "question__title": "Find the Power of K-Size Subarrays II",
+                "question__title_slug": "find-the-power-of-k-size-subarrays-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3254,
+                "question__title": "Find the Power of K-Size Subarrays I",
+                "question__title_slug": "find-the-power-of-k-size-subarrays-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3238,
+                "question__title": "Find the Number of Winning Players",
+                "question__title_slug": "find-the-number-of-winning-players"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3290,
+                "question__title": "Maximum Multiplication Score",
+                "question__title_slug": "maximum-multiplication-score"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3243,
+                "question__title": "Shortest Distance After Road Addition Queries I",
+                "question__title_slug": "shortest-distance-after-road-addition-queries-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3242,
+                "question__title": "Design Neighbor Sum Service",
+                "question__title_slug": "design-neighbor-sum-service"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3232,
+                "question__title": "Find if Digit Game Can Be Won",
+                "question__title_slug": "find-if-digit-game-can-be-won"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3244,
+                "question__title": "Shortest Distance After Road Addition Queries II",
+                "question__title_slug": "shortest-distance-after-road-addition-queries-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3222,
+                "question__title": "Find the Winning Player in Coin Game",
+                "question__title_slug": "find-the-winning-player-in-coin-game"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3301,
+                "question__title": "Maximize the Total Height of Unique Towers",
+                "question__title_slug": "maximize-the-total-height-of-unique-towers"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3319,
+                "question__title": "K-th Largest Perfect Subtree Size in Binary Tree",
+                "question__title_slug": "k-th-largest-perfect-subtree-size-in-binary-tree"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3226,
+                "question__title": "Number of Bit Changes to Make Two Integers Equal",
+                "question__title_slug": "number-of-bit-changes-to-make-two-integers-equal"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3233,
+                "question__title": "Find the Count of Numbers Which Are Not Special",
+                "question__title_slug": "find-the-count-of-numbers-which-are-not-special"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3325,
+                "question__title": "Count Substrings With K-Frequency Characters I",
+                "question__title_slug": "count-substrings-with-k-frequency-characters-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3217,
+                "question__title": "Delete Nodes From Linked List Present in Array",
+                "question__title_slug": "delete-nodes-from-linked-list-present-in-array"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3219,
+                "question__title": "Minimum Cost for Cutting Cake II",
+                "question__title_slug": "minimum-cost-for-cutting-cake-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3224,
+                "question__title": "Minimum Array Changes to Make Differences Equal",
+                "question__title_slug": "minimum-array-changes-to-make-differences-equal"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3296,
+                "question__title": "Minimum Number of Seconds to Make Mountain Height Zero",
+                "question__title_slug": "minimum-number-of-seconds-to-make-mountain-height-zero"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3275,
+                "question__title": "K-th Nearest Obstacle Queries",
+                "question__title_slug": "k-th-nearest-obstacle-queries"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3218,
+                "question__title": "Minimum Cost for Cutting Cake I",
+                "question__title_slug": "minimum-cost-for-cutting-cake-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3228,
+                "question__title": "Maximum Number of Operations to Move Ones to the End",
+                "question__title_slug": "maximum-number-of-operations-to-move-ones-to-the-end"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3212,
+                "question__title": "Count Submatrices With Equal Frequency of X and Y",
+                "question__title_slug": "count-submatrices-with-equal-frequency-of-x-and-y"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3202,
+                "question__title": "Find the Maximum Length of Valid Subsequence II",
+                "question__title_slug": "find-the-maximum-length-of-valid-subsequence-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3201,
+                "question__title": "Find the Maximum Length of Valid Subsequence I",
+                "question__title_slug": "find-the-maximum-length-of-valid-subsequence-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3316,
+                "question__title": "Find Maximum Removals From Source String",
+                "question__title_slug": "find-maximum-removals-from-source-string"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3249,
+                "question__title": "Count the Number of Good Nodes",
+                "question__title_slug": "count-the-number-of-good-nodes"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3281,
+                "question__title": "Maximize Score of Numbers in Ranges",
+                "question__title_slug": "maximize-score-of-numbers-in-ranges"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3216,
+                "question__title": "Lexicographically Smallest String After a Swap",
+                "question__title_slug": "lexicographically-smallest-string-after-a-swap"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3208,
+                "question__title": "Alternating Groups II",
+                "question__title_slug": "alternating-groups-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3213,
+                "question__title": "Construct String with Minimum Cost",
+                "question__title_slug": "construct-string-with-minimum-cost"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3234,
+                "question__title": "Count the Number of Substrings With Dominant Ones",
+                "question__title_slug": "count-the-number-of-substrings-with-dominant-ones"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3235,
+                "question__title": "Check if the Rectangle Corner Is Reachable",
+                "question__title_slug": "check-if-the-rectangle-corner-is-reachable"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3192,
+                "question__title": "Minimum Operations to Make Binary Array Elements Equal to One II",
+                "question__title_slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3190,
+                "question__title": "Find Minimum Operations to Make All Elements Divisible by Three",
+                "question__title_slug": "find-minimum-operations-to-make-all-elements-divisible-by-three"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3191,
+                "question__title": "Minimum Operations to Make Binary Array Elements Equal to One I",
+                "question__title_slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3194,
+                "question__title": "Minimum Average of Smallest and Largest Elements",
+                "question__title_slug": "minimum-average-of-smallest-and-largest-elements"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3225,
+                "question__title": "Maximum Score From Grid Operations",
+                "question__title_slug": "maximum-score-from-grid-operations"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3200,
+                "question__title": "Maximum Height of a Triangle",
+                "question__title_slug": "maximum-height-of-a-triangle"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3210,
+                "question__title": "Find the Encrypted String",
+                "question__title_slug": "find-the-encrypted-string"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3209,
+                "question__title": "Number of Subarrays With AND Value of K",
+                "question__title_slug": "number-of-subarrays-with-and-value-of-k"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3196,
+                "question__title": "Maximize Total Cost of Alternating Subarrays",
+                "question__title_slug": "maximize-total-cost-of-alternating-subarrays"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3206,
+                "question__title": "Alternating Groups I",
+                "question__title_slug": "alternating-groups-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3227,
+                "question__title": "Vowels Game in a String",
+                "question__title_slug": "vowels-game-in-a-string"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3195,
+                "question__title": "Find the Minimum Area to Cover All Ones I",
+                "question__title_slug": "find-the-minimum-area-to-cover-all-ones-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3193,
+                "question__title": "Count the Number of Inversions",
+                "question__title_slug": "count-the-number-of-inversions"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3197,
+                "question__title": "Find the Minimum Area to Cover All Ones II",
+                "question__title_slug": "find-the-minimum-area-to-cover-all-ones-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3176,
+                "question__title": "Find the Maximum Length of a Good Subsequence I",
+                "question__title_slug": "find-the-maximum-length-of-a-good-subsequence-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3223,
+                "question__title": "Minimum Length of String After Operations",
+                "question__title_slug": "minimum-length-of-string-after-operations"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3229,
+                "question__title": "Minimum Operations to Make Array Equal to Target",
+                "question__title_slug": "minimum-operations-to-make-array-equal-to-target"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3211,
+                "question__title": "Generate Binary Strings Without Adjacent Zeros",
+                "question__title_slug": "generate-binary-strings-without-adjacent-zeros"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3177,
+                "question__title": "Find the Maximum Length of a Good Subsequence II",
+                "question__title_slug": "find-the-maximum-length-of-a-good-subsequence-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3163,
+                "question__title": "String Compression III",
+                "question__title_slug": "string-compression-iii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3178,
+                "question__title": "Find the Child Who Has the Ball After K Seconds",
+                "question__title_slug": "find-the-child-who-has-the-ball-after-k-seconds"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3174,
+                "question__title": "Clear Digits",
+                "question__title_slug": "clear-digits"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3162,
+                "question__title": "Find the Number of Good Pairs I",
+                "question__title_slug": "find-the-number-of-good-pairs-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3170,
+                "question__title": "Lexicographically Minimum String After Removing Stars",
+                "question__title_slug": "lexicographically-minimum-string-after-removing-stars"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3164,
+                "question__title": "Find the Number of Good Pairs II",
+                "question__title_slug": "find-the-number-of-good-pairs-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3181,
+                "question__title": "Maximum Total Reward Using Operations II",
+                "question__title_slug": "maximum-total-reward-using-operations-ii"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3180,
+                "question__title": "Maximum Total Reward Using Operations I",
+                "question__title_slug": "maximum-total-reward-using-operations-i"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3203,
+                "question__title": "Find Minimum Diameter After Merging Two Trees",
+                "question__title_slug": "find-minimum-diameter-after-merging-two-trees"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3187,
+                "question__title": "Peaks in Array",
+                "question__title_slug": "peaks-in-array"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3186,
+                "question__title": "Maximum Total Damage With Spell Casting",
+                "question__title_slug": "maximum-total-damage-with-spell-casting"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3171,
+                "question__title": "Find Subarray With Bitwise OR Closest to K",
+                "question__title_slug": "find-subarray-with-bitwise-or-closest-to-k"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3161,
+                "question__title": "Block Placement Queries",
+                "question__title_slug": "block-placement-queries"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3160,
+                "question__title": "Find the Number of Distinct Colors Among the Balls",
+                "question__title_slug": "find-the-number-of-distinct-colors-among-the-balls"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
                 "frontend_question_id": 3149,
                 "question__title": "Find the Minimum Cost Array Permutation",
                 "question__title_slug": "find-the-minimum-cost-array-permutation"
             },
             "difficulty": {
                 "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3169,
+                "question__title": "Count Days Without Meetings",
+                "question__title_slug": "count-days-without-meetings"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3151,
+                "question__title": "Special Array I",
+                "question__title_slug": "special-array-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3158,
+                "question__title": "Find the XOR of Numbers Which Appear Twice",
+                "question__title_slug": "find-the-xor-of-numbers-which-appear-twice"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3152,
+                "question__title": "Special Array II",
+                "question__title_slug": "special-array-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3168,
+                "question__title": "Minimum Number of Chairs in a Waiting Room",
+                "question__title_slug": "minimum-number-of-chairs-in-a-waiting-room"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3165,
+                "question__title": "Maximum Sum of Subsequence With Non-adjacent Elements",
+                "question__title_slug": "maximum-sum-of-subsequence-with-non-adjacent-elements"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3179,
+                "question__title": "Find the N-th Value After K Seconds",
+                "question__title_slug": "find-the-n-th-value-after-k-seconds"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3184,
+                "question__title": "Count Pairs That Form a Complete Day I",
+                "question__title_slug": "count-pairs-that-form-a-complete-day-i"
+            },
+            "difficulty": {
+                "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3159,
+                "question__title": "Find Occurrences of an Element in an Array",
+                "question__title_slug": "find-occurrences-of-an-element-in-an-array"
+            },
+            "difficulty": {
+                "level": 2
             }
         },
         {
@@ -22,12 +1572,52 @@
         },
         {
             "stat": {
+                "frontend_question_id": 3185,
+                "question__title": "Count Pairs That Form a Complete Day II",
+                "question__title_slug": "count-pairs-that-form-a-complete-day-ii"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3153,
+                "question__title": "Sum of Digit Differences of All Pairs",
+                "question__title_slug": "sum-of-digit-differences-of-all-pairs"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
                 "frontend_question_id": 3142,
                 "question__title": "Check if Grid Satisfies Conditions",
                 "question__title_slug": "check-if-grid-satisfies-conditions"
             },
             "difficulty": {
                 "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3154,
+                "question__title": "Find Number of Ways to Reach the K-th Stair",
+                "question__title_slug": "find-number-of-ways-to-reach-the-k-th-stair"
+            },
+            "difficulty": {
+                "level": 3
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3175,
+                "question__title": "Find The First Player to win K Games in a Row",
+                "question__title_slug": "find-the-first-player-to-win-k-games-in-a-row"
+            },
+            "difficulty": {
+                "level": 2
             }
         },
         {
@@ -1035,6 +2625,16 @@
                 "frontend_question_id": 3026,
                 "question__title": "Maximum Good Subarray Sum",
                 "question__title_slug": "maximum-good-subarray-sum"
+            },
+            "difficulty": {
+                "level": 2
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 3207,
+                "question__title": "Maximum Points After Enemy Battles",
+                "question__title_slug": "maximum-points-after-enemy-battles"
             },
             "difficulty": {
                 "level": 2
@@ -19138,6 +20738,16 @@
             },
             "difficulty": {
                 "level": 1
+            }
+        },
+        {
+            "stat": {
+                "frontend_question_id": 624,
+                "question__title": "Maximum Distance in Arrays",
+                "question__title_slug": "maximum-distance-in-arrays"
+            },
+            "difficulty": {
+                "level": 2
             }
         },
         {
